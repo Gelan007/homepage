@@ -169,6 +169,18 @@ body {
     text-align: justify;
 }
 
+.skills__ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills__li {
+    margin-left: 35px;
+}
+
+.skills__li:first {
+    margin-left: 0px; 
+}
 
 .experiences {
     flex: 1 1 60%;
